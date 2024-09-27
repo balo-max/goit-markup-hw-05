@@ -494,10 +494,6 @@ body {
   font-weight: 500;
   color: #ffffff;
 }
-.footer-form {
-  display: flex;
-  gap: 24px;
-}
 .footer-input {
   font-size: 12px;
   line-height: 2;
@@ -692,8 +688,8 @@ body {
 }
 .modal-form-checkbox-input:checked + .modal-form-checkbox-label > .modal-form-custom-checkbox {
   background-color: #404bbf;
-  fill: #f4f4fd;
   border: none;
+  fill: #f4f4fd;
 }
 .modal-form-checkbox-input:focus + .modal-form-checkbox-label > .modal-form-custom-checkbox {
   border: 1px solid #404bbf;
