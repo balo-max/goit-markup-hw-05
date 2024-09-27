@@ -461,26 +461,22 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
+        <div class="footer-form">
           <div class="footer-container-label">
-            <label class="footer-label" for="footer-input">Subscribe</label>
-            <input
-              class="footer-input"
-              type="email"
-              name="footer-email"
-              placeholder="E-mail"
-              id="footer-input"
-            />
+            <p class="footer-text-label">Subscribe</p>
+            <form class="footer-form">
+              <label class="footer-label">
+                <input class="footer-input" type="email" name="footer-email" placeholder="E-mail" />
+              </label>
+              <button class="footer-send-btn" type="submit">
+                Subscribe
+                <svg class="footer-send-icon" width="24" height="20">
+                  <use href="./images/icons.svg#icon-Frame"></use>
+                </svg>
+              </button>
+            </form>
           </div>
-          <div class="footer-container-btn">
-            <button class="footer-send-btn" type="submit">
-              Subscribe
-              <svg class="footer-send-icon" width="24" height="20">
-                <use href="./images/icons.svg#icon-Frame"></use>
-              </svg>
-            </button>
-          </div>
-        </form>
+        </div>
       </div>
     </footer>
 
@@ -550,7 +546,6 @@
               name="pirvacy-policy"
               id="pirvacy-policy"
               value="true"
-              r
             />
             <label class="modal-form-checkbox-label" for="pirvacy-policy">
               <span class="modal-form-custom-checkbox">
